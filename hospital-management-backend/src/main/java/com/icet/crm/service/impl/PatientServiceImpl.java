@@ -1,8 +1,9 @@
-package com.icet.crm.service;
+package com.icet.crm.service.impl;
 
 import com.icet.crm.entity.PatientEntity;
 import com.icet.crm.model.Patient;
 import com.icet.crm.repository.PatientRepository;
+import com.icet.crm.service.PatientService;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
