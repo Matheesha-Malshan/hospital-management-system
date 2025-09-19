@@ -6,4 +6,5 @@ public interface AppointmentService {
 
     void addAppointment(Appointment appointment);
 
+    void deleteById(Integer id);
 }

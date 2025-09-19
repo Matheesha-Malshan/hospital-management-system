@@ -19,4 +19,10 @@ public class AppointmentServiceimpl implements AppointmentService {
 
         appointmentRepository.save(mapper.map(appointment,AppointmentEntity.class));
     }
+
+    @Override
+    public void deleteById(Integer id) {
+         appointmentRepository.deleteById(id);
+
+    }
 }
